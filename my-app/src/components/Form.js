@@ -51,7 +51,7 @@ const formikLoginForm = withFormik({
             .email("Email is not valid")
             .required("Email is required"),
         password: Yup.string()
-            .min(8, "Password must be at least 8 characters")
+            .min(8, "Password must be at least eight characters long")
             .required("Password is required"),
     }),
     
